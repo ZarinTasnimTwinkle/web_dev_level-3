@@ -1,0 +1,42 @@
+/* Custom Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Navigation Hover Effect */
+.navbar-nav .nav-link {
+    transition: color 0.3s ease;
+    padding: 10px 15px;
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: #f8f9fa;
+    color: #0d6efd !important;
+    border-radius: 5px;
+}
+
+/* Image Zoom Effect for Product Details */
+.zoom-container {
+    overflow: hidden;
+    cursor: zoom-in;
+}
+
+.zoom-container img {
+    transition: transform 0.5s ease;
+}
+
+.zoom-container:hover img {
+    transform: scale(1.5);
+}
+
+/* Sticky Footer */
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+    margin-top: 50px;
+}
+
+#date-time {
+    font-weight: bold;
+}
